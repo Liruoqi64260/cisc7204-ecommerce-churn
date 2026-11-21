@@ -26,7 +26,7 @@ Every figure used to communicate a conclusion is accompanied by a Markdown self-
 | `README.md` | This file: overview, contents, installation and execution guide. |
 | `CISC7204_FinalProject_Churn_Analysis.ipynb` | Executed notebook: import, cleaning, EDA, feature engineering, modelling, evaluation and visualisation. Each figure is followed by a five-point Cairo critique Markdown cell. |
 | `CISC7204_FinalProject_Churn_Analysis.html` | Static HTML rendering of the executed notebook for quick browsing. |
-| `datasets/cleaned_customer_features.csv.gz` | Gzip-compressed analytic dataset (93,350 rows x 33 columns); the notebook decompresses it automatically on first run. |
+| `datasets/cleaned_customer_features.csv` | Analytic dataset (93,350 rows x 33 columns) used by the notebook. |
 | `datasets/DATASET_DESCRIPTION.md` | Data provenance, sample size, missing-value profile, target definition and limitations. |
 | `codebook/CODEBOOK.md` | Independent variable handbook: name, type, business meaning, encoding and preprocessing. |
 | `figures/*.png` | Eleven exported publication-resolution visualisations (150+ dpi). |
@@ -88,7 +88,15 @@ Successful execution regenerates all eleven PNG files inside `figures/`. The ran
 
 ---
 
-## 6. Reference
+## 6. Public GitHub repository
+
+**https://github.com/Liruoqi64260/cisc7204-ecommerce-churn**
+
+Full project files (code, figures, codebook, dataset description and compressed dataset) are available in this public repository.
+
+---
+
+## 7. Reference
 
 Olist. (2018). *Brazilian E-Commerce Public Dataset by Olist*. Kaggle. https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
